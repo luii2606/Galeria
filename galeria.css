@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+  font-size: 15px;
+  margin: 16px;
+  font-family: 'Kanit', sans-serif;
+  background-color: #f0f0f0;
+  height: 100vh;
+  
+}
+.Dokkan{
+  display:block;
+  margin:5px auto;
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  filter: drop-shadow(-1px 9px 7px rgb(59, 54, 54));
+  place-content: center;
+  
+}
+
+  
+h1{
+  color: black;
+  margin: 15px auto;
+  font-family: "Kanit", sans-serif;
+}
+.caja{
+  background-color: #0000;
+    display: inline-block ;
+  padding: 20px;
+  width: 381px;
+ font-size: 1rem;
+  border: solid 3px gray;
+  border-radius: 15px;
+  margin: 10px;
+  
+  
+} 
+.galeria {
+    display: flex;
+    justify-content:safe;
+    flex-wrap: wrap;
+    margin: 180px;
+    object-fit: cover;
+  }
+
+button{ 
+    background-color: rgb(29, 170, 170);
+    color:#fff;
+    width: 200px;
+  height: 38px;
+  padding:10px;
+  display:block;
+  margin:25px auto ;
+  border-radius: 7px;
+  width: 148px;
+  place-content: center;
+  text-align: center;
+  
+  }
