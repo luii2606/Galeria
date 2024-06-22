@@ -6,11 +6,17 @@
 }
 body{
   font-size: 15px;
-  margin: 16px;
+  margin: 0;
   font-family: 'Kanit', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #559adb;
   height: 100vh;
   
+}
+
+.header{
+  padding: 20px 0;
+  text-align: center;
+  background: rgb(137, 213, 236);
 }
 .Dokkan{
   display:block;
@@ -45,12 +51,12 @@ h1{
     display: flex;
     justify-content:safe;
     flex-wrap: wrap;
-    margin: 180px;
+    margin: 70px;
     object-fit: cover;
   }
 
 button{ 
-    background-color: rgb(29, 170, 170);
+    background-color: rgb(15, 83, 83);
     color:#fff;
     width: 200px;
   height: 38px;
